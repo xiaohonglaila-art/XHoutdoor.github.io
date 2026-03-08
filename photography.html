@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Backcountry Photography | GearInsights by Xander Hayes</title>
+    
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2778302064532686" crossorigin="anonymous"></script>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <style>
+        :root { --bg-color: #f8fafc; --text-main: #334155; --text-heading: #0f172a; --accent-color: #0284c7; --card-bg: #ffffff; }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: 'Inter', sans-serif; background-color: var(--bg-color); color: var(--text-main); line-height: 1.7; }
+        header { background-color: var(--card-bg); padding: 1.5rem 5%; box-shadow: 0 1px 3px rgba(0,0,0,0.05); display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; z-index: 100; }
+        .logo { font-size: 1.5rem; font-weight: 800; color: var(--text-heading); text-decoration: none; letter-spacing: -0.5px; }
+        .logo span { color: var(--accent-color); }
+        nav a { color: var(--text-main); text-decoration: none; margin-left: 1.5rem; font-weight: 600; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.5px; }
+
+        .photo-hero { background: url('https://images.unsplash.com/photo-1452415089727-d7009381590a?auto=format&fit=crop&w=1500&q=80') center/cover; padding: 8rem 5%; text-align: center; color: white; position: relative; }
+        .photo-hero::after { content: ''; position: absolute; top:0; left:0; width:100%; height:100%; background: rgba(0,0,0,0.5); z-index: 1; }
+        .photo-hero-content { position: relative; z-index: 2; }
+        .photo-hero h1 { font-size: 3rem; font-weight: 800; margin-bottom: 1rem; }
+
+        .content-grid { max-width: 1200px; margin: 4rem auto; padding: 0 5%; display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 2.5rem; }
+        .featured-card { background: var(--card-bg); border-radius: 12px; overflow: hidden; border: 1px solid #e2e8f0; transition: all 0.3s ease; }
+        .featured-card:hover { transform: translateY(-8px); box-shadow: 0 20px 25px -5px rgba(0,0,0,0.1); }
+        .featured-card img { width: 100%; height: 240px; object-fit: cover; }
+        .card-body { padding: 2rem; }
+        .card-body h3 { font-size: 1.5rem; color: var(--text-heading); margin-bottom: 1rem; font-weight: 800; }
+        .card-body p { color: #64748b; margin-bottom: 1.5rem; }
+        .btn-link { color: var(--accent-color); font-weight: 800; text-decoration: none; text-transform: uppercase; font-size: 0.9rem; }
+
+        footer { background: var(--text-heading); color: #cbd5e1; text-align: center; padding: 3rem 5%; margin-top: 4rem; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <a href="index.html" class="logo">Gear<span>Insights</span></a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="guides.html">Guides</a>
+            <a href="reviews.html">Reviews</a>
+            <a href="photography.html">Photography</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <div class="photo-hero">
+        <div class="photo-hero-content">
+            <h1>Capturing the Wild</h1>
+            <p>Weight-conscious camera gear and technical tips for outdoor storytellers.</p>
+        </div>
+    </div>
+
+    <div class="content-grid">
+        <div class="featured-card">
+            <img src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=800&q=80" alt="Camera Review">
+            <div class="card-body">
+                <h3>Best Backcountry Mirrorless Cameras</h3>
+                <p>Analyzing dynamic range, battery life, and weather sealing for multi-day expeditions.</p>
+                <a href="best-backcountry-cameras.html" class="btn-link">Read Analysis</a>
+            </div>
+        </div>
+
+        <div class="featured-card">
+            <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80" alt="Mountain Photography">
+            <div class="card-body">
+                <h3>Mountain Light: Golden Hour Workflow</h3>
+                <p>How to handle high-contrast alpine sunrises without carrying heavy tripod setups.</p>
+                <a href="#" class="btn-link">Coming Soon</a>
+            </div>
+        </div>
+    </div>
+
+    <footer><p>&copy; 2026 GearInsights by Xander Hayes. Contact: xiaohonglaila@gmail.com</p></footer>
+
+</body>
+</html>
