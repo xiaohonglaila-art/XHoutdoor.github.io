@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expert Adventure Guides | GearInsights by Xander Hayes</title>
+    
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2778302064532686" crossorigin="anonymous"></script>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <style>
+        :root { --bg-color: #f8fafc; --text-main: #334155; --text-heading: #0f172a; --accent-color: #0284c7; --card-bg: #ffffff; }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: 'Inter', sans-serif; background-color: var(--bg-color); color: var(--text-main); line-height: 1.7; }
+        header { background-color: var(--card-bg); padding: 1.5rem 5%; box-shadow: 0 1px 3px rgba(0,0,0,0.05); display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; z-index: 100; }
+        .logo { font-size: 1.5rem; font-weight: 800; color: var(--text-heading); text-decoration: none; letter-spacing: -0.5px; }
+        .logo span { color: var(--accent-color); }
+        nav a { color: var(--text-main); text-decoration: none; margin-left: 2rem; font-weight: 600; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.5px; }
+
+        .guide-header { background: var(--accent-color); color: white; text-align: center; padding: 5rem 1rem; }
+        .guide-header h1 { font-size: 2.8rem; font-weight: 800; margin-bottom: 1rem; }
+        .guide-header p { font-size: 1.2rem; opacity: 0.9; max-width: 700px; margin: 0 auto; }
+
+        .guide-grid { max-width: 1200px; margin: 4rem auto; padding: 0 5%; display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 2.5rem; }
+        
+        .guide-card { background: var(--card-bg); border-radius: 12px; overflow: hidden; border: 1px solid #e2e8f0; display: flex; flex-direction: column; transition: all 0.3s ease; }
+        .guide-card:hover { transform: translateY(-8px); box-shadow: 0 20px 25px -5px rgba(0,0,0,0.1); }
+        .guide-card img { width: 100%; height: 220px; object-fit: cover; }
+        .guide-card-content { padding: 2rem; }
+        .guide-card-content h3 { font-size: 1.5rem; color: var(--text-heading); margin-bottom: 1rem; font-weight: 800; }
+        .guide-card-content p { color: #64748b; margin-bottom: 1.5rem; }
+        .guide-btn { display: inline-block; font-weight: 600; color: var(--accent-color); text-decoration: none; text-transform: uppercase; font-size: 0.9rem; letter-spacing: 1px; }
+
+        footer { background: var(--text-heading); color: #cbd5e1; text-align: center; padding: 3rem 5%; margin-top: 4rem; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <a href="index.html" class="logo">Gear<span>Insights</span></a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="guides.html">Guides</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <div class="guide-header">
+        <h1>Master the Backcountry</h1>
+        <p>Expert tutorials on gear maintenance, trail skills, and wilderness photography—tested by Xander Hayes in the world's most demanding environments.</p>
+    </div>
+
+    <div class="guide-grid">
+        <div class="guide-card">
+            <img src="https://images.unsplash.com/photo-1501555088652-021faa106b9b?auto=format&fit=crop&w=800&q=80" alt="Backpack adjustment">
+            <div class="guide-card-content">
+                <h3>The Perfect Fit: How to Adjust Your Pack Suspension</h3>
+                <p>Stop the shoulder pain. Learn the 4-step sequence to transfer 80% of your pack weight to your hips for a fatigue-free trek.</p>
+                <a href="#" class="guide-btn">Read Guide (Coming Soon)</a>
+            </div>
+        </div>
+
+        <div class="guide-card">
+            <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80" alt="Landscape photography tips">
+            <div class="guide-card-content">
+                <h3>Golden Hour Secrets for Mountain Photographers</h3>
+                <p>Mastering composition and exposure when light is changing rapidly. My personal workflow for capturing epic alpine sunrises.</p>
+                <a href="#" class="guide-btn">Read Guide (Coming Soon)</a>
+            </div>
+        </div>
+
+        <div class="guide-card">
+            <img src="https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&w=800&q=80" alt="Boots care">
+            <div class="guide-card-content">
+                <h3>How to Clean & Waterproof Your Hiking Boots</h3>
+                <p>Extend the life of your Gore-Tex investment. A deep dive into cleaning technical leather and reapplying DWR coatings.</p>
+                <a href="#" class="guide-btn">Read Guide (Coming Soon)</a>
+            </div>
+        </div>
+    </div>
+
+    <footer><p>&copy; 2026 GearInsights by Xander Hayes. All rights reserved.</p></footer>
+
+</body>
+</html>
