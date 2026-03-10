@@ -39,6 +39,40 @@
         .in-article-ad { background: #f1f5f9; border: 2px dashed #cbd5e1; border-radius: 8px; padding: 2rem; text-align: center; color: #94a3b8; font-weight: 600; margin: 3rem 0; }
         
         footer { background: var(--text-heading); color: #cbd5e1; text-align: center; padding: 3rem 5%; margin-top: 4rem; }
+        /* 作者名片样式 (Author Box) */
+        .author-box {
+            display: flex;
+            align-items: center;
+            background-color: #f1f5f9;
+            padding: 2rem;
+            border-radius: 8px;
+            margin-top: 4rem;
+            border-left: 4px solid var(--accent-color);
+        }
+        .author-avatar {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 1.5rem;
+        }
+        .author-info h4 {
+            font-family: 'Montserrat', sans-serif;
+            color: var(--text-heading);
+            margin-bottom: 0.5rem;
+            font-size: 1.2rem;
+            font-weight: 800;
+        }
+        .author-info p {
+            font-size: 0.95rem;
+            margin-bottom: 0;
+            color: var(--text-main);
+            line-height: 1.6;
+        }
+        @media (max-width: 768px) {
+            .author-box { flex-direction: column; text-align: center; }
+            .author-avatar { margin-right: 0; margin-bottom: 1rem; }
+        }
     </style>
 </head>
 <body>
@@ -119,6 +153,13 @@
             <h2>The Final Verdict: Which Should You Buy?</h2>
             <p><strong>Buy Lowa if:</strong> You prioritize immediate, cloud-like comfort, you have a slightly wider foot, and your long-distance hikes are mostly on established trails, forest paths, and rolling hills.</p>
             <p><strong>Buy Garmont if:</strong> You have a regular or narrower foot, you need a locked-in heel for blister prevention, and your routes take you off-trail into technical alpine environments, loose scree, or steep descents. They are precision tools for serious terrain.</p>
+        <div class="author-box">
+            <img src="https://images.unsplash.com/photo-1539605540356-9fb80ed2dc90?auto=format&fit=crop&w=200&q=80" alt="Xander Hayes" class="author-avatar">
+            <div class="author-info">
+                <h4>About Xander Hayes</h4>
+                <p>Xander is an outdoor gear tester and backcountry photographer. With thousands of miles logged in the wilderness, he breaks down technical gear with raw field data. <a href="about.html" style="color: var(--accent-color); font-weight: 800; text-decoration: none;">Read full bio</a>.</p>
+            </div>
+        </div>
         </div>
     </div>
 
